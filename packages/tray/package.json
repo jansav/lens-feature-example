@@ -1,0 +1,15 @@
+{
+  "name": "@lensapp/tray",
+  "main": "dist/index.js",
+  "types": "src/index.d.ts",
+  "version": "0.0.4",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode=production"
+  },
+
+  "peerDependencies": {
+    "@ogre-tools/injectable": "^9.0.2",
+    "mobx": "^6.6.1"
+  }
+}

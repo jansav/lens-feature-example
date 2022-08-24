@@ -1,0 +1,15 @@
+{
+  "name": "@lensapp/janne",
+  "main": "dist/index.js",
+  "types": "src/index.d.ts",
+  "version": "0.0.4",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode=production"
+  },
+
+  "peerDependencies": {
+    "@lensapp/mikko": "0.0.4",
+    "@ogre-tools/injectable": "^9.0.2"
+  }
+}

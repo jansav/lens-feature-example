@@ -1,0 +1,20 @@
+{
+  "name": "@lensapp/jari-extension",
+  "main": "dist/main.js",
+  "types": "src/index.d.ts",
+  "version": "0.0.4",
+  "private": true,
+  "engines": {
+    "lens": "^6.0.0"
+  },
+  "scripts": {
+    "build": "webpack --mode=production"
+  },
+
+  "peerDependencies": {
+    "@k8slens/extensions": "6.0.1-git.6d37019089.0",
+    "@lensapp/tray": "0.0.4",
+    "@ogre-tools/injectable": "^9.0.2",
+    "mobx": "^6.6.1"
+  }
+}

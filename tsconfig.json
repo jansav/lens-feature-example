@@ -2,6 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "jsx": "react",
+    "declaration": true,
     "target": "ES2019",
     "module": "ESNext",
     "lib": [
@@ -45,8 +46,7 @@
     }
   },
   "include": [
-    "src/**/*",
-    "types/*.d.ts",
+    "packages/**/src/**/*",
   ],
   "exclude": [
     "node_modules",
@@ -55,6 +55,5 @@
     "coverage",
     "binaries",
     "static",
-    "src/extensions/npm"
   ]
 }

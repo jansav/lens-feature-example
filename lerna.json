@@ -1,0 +1,21 @@
+{
+  "version": "0.0.4",
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": [
+        "--no-package-lock"
+      ],
+      "hoist": true
+    },
+    "publish": {
+      "forcePublish": true,
+      "conventionalCommits": true,
+      "createRelease": "github",
+      "message": "chore(release): %s",
+      "changelogPreset": "conventionalcommits"
+    }
+  }
+}
